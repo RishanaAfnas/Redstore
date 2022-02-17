@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products-RedStore</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="RedStore_Img/images/logo.png" type="image/gif" sizes="200x300">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+ 
+        <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="RedStore_Img/images/logo.png" width="125px">
+        </div>
+        <nav>
+            <ul id="menuitems">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="index.html#offer">Offers</a></li>
+               
+                <li><a href="account.html">Account</a></li>
+            </ul>
+
+        </nav>
+        <a href="cart.html"><img src="RedStore_Img/images/cart.png" width="30px" height="30px"></a>
+        <img src="RedStore_Img/images/menu.png" class="menu-icon" onclick="menutoggle()">
+  </div>
+  </div>
+    <div class="small-container">
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default sorting</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
+        </div>
+     <div class="row">
+          <div class="col-4">
+            <a href="product-details.html"><img src="RedStore_Img/images/product-1.jpg" ></a>
+            <a href="product-details.html"><h4>Red Printed T-shirt</h4></a>
+            <p>$50.00</p>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+               
+            </div>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-2.jpg" >
+            <h4> Sports Unisex Sneaker</h4>
+            <p>$40.00</p>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i>
+               
+            </div>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-3.jpg" >
+            <h4>Fashion Joggers for Men</h4>
+            <p>$30.00</p>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+               
+                <i class="fas fa-star-half-alt"></i>
+                <i class="far fa-star"></i>
+               
+            </div>
+            
+        </div>
+        <div class="col-4">
+            <img src="RedStore_Img/images/product-4.jpg" >
+            <h4>Organic Cotton T-shirt</h4>
+            <p>$42.00</p>
+            <div class="rating">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="far fa-star"></i>
+               
+            </div>
+            
+        </div>
+       
+</div>
+<div class="row">
+    <div class="col-4">
+      <img src="RedStore_Img/images/product-5.jpg" >
+      <h4>MEN CASUAL SNEAKERS</h4>
+      <p>$60.00</p>
+      <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+         
+      </div>
+      
+  </div>
+  <div class="col-4">
+      <img src="RedStore_Img/images/product-6.jpg" >
+      <h4>Round Neck T-shirt</h4>
+      <p>$26.00</p>
+      <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         
+      </div>
+      
+  </div>
+  <div class="col-4">
+      <img src="RedStore_Img/images/product-7.jpg" >
+      <h4>Unisex Ankle Socks</h4>
+      <p>$20.00</p>
+      <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         
+          <i class="fas fa-star-half-alt"></i>
+          <i class="far fa-star"></i>
+         
+      </div>
+      
+  </div>
+  <div class="col-4">
+      <img src="RedStore_Img/images/product-8.jpg" >
+      <h4>Classic Men's Watch</h4>
+      <p>$50.00</p>
+      <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+         
+      </div>
+      
+  </div>
+ 
+</div>
+<div class="row">
+    <div class="col-4">
+      <img src="RedStore_Img/images/product-9.jpg" >
+      <h4>Leather Band Watch3</h4>
+      <p>$40.00</p>
+      <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+         
+      </div>
+      
+  </div>
+  <div class="col-4">
+      <img src="RedStore_Img/images/product-10.jpg" >
+      <h4>Sports Sneakers - Black</h4>
+      <p>$50.00</p>
+      <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+         
+      </div>
+      
+  </div>
+  <div class="col-4">
+      <img src="RedStore_Img/images/product-11.jpg" >
+      <h4>Men's Sports Shoes</h4>
+      <p>$40.00</p>
+      <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+         
+          <i class="fas fa-star-half-alt"></i>
+          <i class="far fa-star"></i>
+         
+      </div>
+      
+  </div>
+  <div class="col-4">
+      <img src="RedStore_Img/images/product-12.jpg" >
+      <h4>Slim Fit Pants</h4>
+      <p>$48.00</p>
+      <div class="rating">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="far fa-star"></i>
+         
+      </div>
+      
+  </div>
+ 
+</div>
+<div class="page-btn">
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>&#8594</span>
+</div>
+</div>
+
+
+<!---------footer-------->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App for Android and ios mobile phone</p>
+                <div class="app-logo">
+                    <img src="RedStore_Img/images/play-store.png">
+                    <img src="RedStore_Img/images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="RedStore_Img/images/logo-white.png" >
+                <p>Our purpose is to Sustainably Make the Pleasure and Benifits of Sports Accessible to the many</p>
+               
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful Links</h3>
+               <ul>
+                   <li>Coupons</li>
+                   <li>Blog Post</li>
+                   <li>Return policy</li>
+                   <li>Join Affiliate</li>
+               </ul>
+            </div>
+            <div class="footer-col-3">
+                <h3>Follow us</h3>
+               <ul>
+                   <li>Facebook</li>
+                   <li>Twitter</li>
+                   <li>Instagram</li>
+                   <li>youtube</li>
+               </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2021 -Design by Rishana</p>
+    </div>
+</div>
+<!-------scroll button------>
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8657;</button>
+<!--------js for toggle menu-->
+<script>
+    var MenuItems=document.getElementById("menuitems");
+
+      MenuItems.style.maxHeight="0px";
+      function menutoggle(){
+          if( MenuItems.style.maxHeight=="0px")
+          {
+            MenuItems.style.maxHeight="200px";
+          }
+          else
+          {
+            MenuItems.style.maxHeight="0px";
+          }
+
+          
+      }
+</script>
+<!-----js for scroll top-->
+<script>
+    //Get the button
+    var mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+
+
+
+    
+</body>
+</html>
